@@ -1,0 +1,9 @@
+TRAINING_FILE = "../input/qrels2021_train.csv"
+INFERENCE_FILE = "../input/BM25_FQ_2022.txt"
+# MODEL = "allenai/scibert_scivocab_uncased"
+# MODEL = "bionlp/bluebert_pubmed_uncased_L-24_H-1024_A-16"
+MODEL = "emilyalsentzer/Bio_ClinicalBERT"
+MAX_LEN = 512
+EPOCHS = 3
+BATCH_SIZE = 128
+DEVICE = "cuda"

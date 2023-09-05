@@ -1,0 +1,5 @@
+pyserini
+elasticsearch
+numpy
+tqdm
+json
